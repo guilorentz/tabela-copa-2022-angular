@@ -1,32 +1,40 @@
-<div class="w-[500px] mx-auto flex flex-col px-6 py-4 bg-white rounded-lg shadow-xl m-4">
-    <h4 class="text-xl text-gray-900 leading-normal text-center pb-2">Grupo</h4>
-    <table class="table-fixed">
-      <thead>
-        <tr class="text-left">
-          <th colspan="2">Equipe</th>
-          <th>Pts</th>
-          <th>PJ</th>
-          <th>VIT</th>
-          <th>E</th>
-          <th>DER</th>
-          <th>GM</th>
-          <th>GC</th>
-          <th>SG</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let pais of grupo" class="py-2">
-          <td><img [src]=pais.flagUrl/></td>
-          <td>{{ pais.name }}</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-      </tbody>
-    </table>
+<div class="w-[500px] mx-auto flex flex-col px-4 py-2 bg-white rounded-lg shadow-xl m-4">
+    <h4 class="text-xl text-gray-900 leading-normal text-center">Grupo</h4>
+    <div>
+      <div class="font-bold">
+        <div class="text-left flex flex-row py-1">
+          <div class="w-2/5">
+            Equipe
+          </div>
+          <div class="flex flex-row w-3/5 justify-between">
+            <div class="w-8">Pts</div>
+            <div class="w-6">PJ</div>
+            <div class="w-6">V</div>
+            <div class="w-6">E</div>
+            <div class="w-6">D</div>
+            <div class="w-6">GM</div>
+            <div class="w-6">GC</div>
+            <div class="w-6">SG</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div *ngFor="let pais of grupo" class="flex flex-row py-2">
+          <div class="flex flex-row w-2/5 items-center">
+            <img [src]=pais.flagUrl class="mr-2"/>
+            <div>{{ pais.name }}</div>
+          </div>
+          <div class="flex flex-row justify-between w-3/5 items-center">
+            <div class="w-8">0</div>
+            <div class="w-6">0</div>
+            <div class="w-6">0</div>
+            <div class="w-6">0</div>
+            <div class="w-6">0</div>
+            <div class="w-6">0</div>
+            <div class="w-6">0</div>
+            <div class="w-6">0</div>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
