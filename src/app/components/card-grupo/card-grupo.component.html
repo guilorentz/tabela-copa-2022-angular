@@ -1,5 +1,5 @@
 <div class="w-[500px] mx-auto flex flex-col px-6 py-4 bg-white rounded-lg shadow-xl m-4">
-    <h4 class="text-xl text-gray-900 leading-normal">Grupo</h4>
+    <h4 class="text-xl text-gray-900 leading-normal text-center pb-2">Grupo</h4>
     <table class="table-fixed">
       <thead>
         <tr class="text-left">
@@ -15,45 +15,9 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td><img [src]=grupo[0].flagUrl/></td>
-          <td>{{ grupo[0].country }}</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td><img [src]=grupo[1].flagUrl /></td>
-          <td>{{ grupo[1].country }}</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td><img [src]=grupo[2].flagUrl /></td>
-          <td>{{ grupo[2].country }}</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td><img [src]=grupo[3].flagUrl /></td>
-          <td>{{ grupo[3].country }}</td>
+        <tr *ngFor="let pais of grupo" class="py-2">
+          <td><img [src]=pais.flagUrl/></td>
+          <td>{{ pais.name }}</td>
           <td>0</td>
           <td>0</td>
           <td>0</td>
