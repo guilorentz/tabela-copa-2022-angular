@@ -1,5 +1,5 @@
-<div class="w-[500px] mx-auto flex flex-col px-4 py-2 bg-white rounded-lg shadow-xl m-4">
-    <h4 class="text-xl text-gray-900 leading-normal text-center">Grupo</h4>
+<div class="w-[450px] mx-auto flex flex-col px-4 py-2 bg-white rounded-lg shadow-xl m-4">
+    <h4 class="text-xl text-gray-900 leading-normal text-center">Grupo {{ grupo[0].group }}</h4>
     <div>
       <div class="font-bold">
         <div class="text-left flex flex-row py-1">
@@ -21,7 +21,7 @@
       <div>
         <div *ngFor="let pais of grupo" class="flex flex-row py-2">
           <div class="flex flex-row w-2/5 items-center">
-            <img [src]=pais.flagUrl class="mr-2"/>
+            <img [src]=pais.flagUrl class="mr-2 w-8"/>
             <div>{{ pais.name }}</div>
           </div>
           <div class="flex flex-row justify-between w-3/5 items-center">

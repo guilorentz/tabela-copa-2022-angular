@@ -29,154 +29,182 @@
     {
       "id": "5",
       "name": "Inglaterra",
-      "flagUrl": "../assets/flags/gb-eng.png"
+      "flagUrl": "../assets/flags/gb-eng.png",
+      "group": "B"
     },
     {
       "id": "6",
       "name": "Irã",
-      "flagUrl": "../assets/flags/ir.png"
+      "flagUrl": "../assets/flags/ir.png",
+      "group": "B"
     },
     {
       "id": "7",
       "name": "Estados Unidos",
-      "flagUrl": "../assets/flags/us.png"
+      "flagUrl": "../assets/flags/us.png",
+      "group": "B"
     },
     {
       "id": "8",
       "name": "País de Gales",
-      "flagUrl": "../assets/flags/gb-wls.png"
+      "flagUrl": "../assets/flags/gb-wls.png",
+      "group": "B"
     }
   ],
   [
     {
       "id": "9",
       "name": "Argentina",
-      "flagUrl": "../assets/flags/ar.png"
+      "flagUrl": "../assets/flags/ar.png",
+      "group": "C"
     },
     {
       "id": "10",
       "name": "Arábia Saudita",
-      "flagUrl": "../assets/flags/sa.png"
+      "flagUrl": "../assets/flags/sa.png",
+      "group": "C"
     },
     {
       "id": "11",
       "name": "México",
-      "flagUrl": "../assets/flags/mx.png"
+      "flagUrl": "../assets/flags/mx.png",
+      "group": "C"
     },
     {
       "id": "12",
       "name": "Polônia",
-      "flagUrl": "../assets/flags/pl.png"
+      "flagUrl": "../assets/flags/pl.png",
+      "group": "C"
     }
   ],
   [
     {
       "id": "13",
       "name": "França",
-      "flagUrl": "../assets/flags/fr.png"
+      "flagUrl": "../assets/flags/fr.png",
+      "group": "D"
     },
     {
       "id": "14",
       "name": "Dinamarca",
-      "flagUrl": "../assets/flags/dk.png"
+      "flagUrl": "../assets/flags/dk.png",
+      "group": "D"
     },
     {
       "id": "15",
       "name": "Tunísia",
-      "flagUrl": "../assets/flags/tn.png"
+      "flagUrl": "../assets/flags/tn.png",
+      "group": "D"
     },
     {
       "id": "16",
       "name": "Austrália",
-      "flagUrl": "../assets/flags/au.png"
+      "flagUrl": "../assets/flags/au.png",
+      "group": "D"
     }
   ],
   [
     {
       "id": "17",
       "name": "Espanha",
-      "flagUrl": "../assets/flags/es.png"
+      "flagUrl": "../assets/flags/es.png",
+      "group": "E"
     },
     {
       "id": "18",
       "name": "Alemanha",
-      "flagUrl": "../assets/flags/de.png"
+      "flagUrl": "../assets/flags/de.png",
+      "group": "E"
     },
     {
       "id": "19",
       "name": "Japão",
-      "flagUrl": "../assets/flags/jp.png"
+      "flagUrl": "../assets/flags/jp.png",
+      "group": "E"
     },
     {
       "id": "20",
       "name": "Costa Rica",
-      "flagUrl": "../assets/flags/cr.png"
+      "flagUrl": "../assets/flags/cr.png",
+      "group": "E"
     }
   ],
   [
     {
       "id": "21",
       "name": "Bélgica",
-      "flagUrl": "../assets/flags/be.png"
+      "flagUrl": "../assets/flags/be.png",
+      "group": "F"
     },
     {
       "id": "22",
       "name": "Canadá",
-      "flagUrl": "../assets/flags/ca.png"
+      "flagUrl": "../assets/flags/ca.png",
+      "group": "F"
     },
     {
       "id": "23",
       "name": "Marrocos",
-      "flagUrl": "../assets/flags/ma.png"
+      "flagUrl": "../assets/flags/ma.png",
+      "group": "F"
     },
     {
       "id": "24",
       "name": "Croácia",
-      "flagUrl": "../assets/flags/hr.png"
+      "flagUrl": "../assets/flags/hr.png",
+      "group": "F"
     }
   ],
   [
     {
       "id": "25",
       "name": "Brasil",
-      "flagUrl": "../assets/flags/br.png"
+      "flagUrl": "../assets/flags/br.png",
+      "group": "G"
     },
     {
       "id": "26",
       "name": "Sérvia",
-      "flagUrl": "../assets/flags/rs.png"
+      "flagUrl": "../assets/flags/rs.png",
+      "group": "G"
     },
     {
       "id": "27",
       "name": "Suíça",
-      "flagUrl": "../assets/flags/ch.png"
+      "flagUrl": "../assets/flags/ch.png",
+      "group": "G"
     },
     {
       "id": "28",
       "name": "Camarões",
-      "flagUrl": "../assets/flags/cm.png"
+      "flagUrl": "../assets/flags/cm.png",
+      "group": "G"
     }
   ],
   [
     {
       "id": "29",
       "name": "Portugal",
-      "flagUrl": "../assets/flags/pt.png"
+      "flagUrl": "../assets/flags/pt.png",
+      "group": "H"
     },
     {
       "id": "30",
       "name": "Gana",
-      "flagUrl": "../assets/flags/gh.png"
+      "flagUrl": "../assets/flags/gh.png",
+      "group": "H"
     },
     {
       "id": "31",
       "name": "Uruguai",
-      "flagUrl": "../assets/flags/uy.png"
+      "flagUrl": "../assets/flags/uy.png",
+      "group": "H"
     },
     {
       "id": "32",
       "name": "Coreia do Sul",
-      "flagUrl": "../assets/flags/kr.png"
+      "flagUrl": "../assets/flags/kr.png",
+      "group": "H"
     }
   ]
 ]

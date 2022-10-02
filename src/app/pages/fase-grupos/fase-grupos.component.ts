@@ -9,13 +9,15 @@ import { HttpClient } from '@angular/common/http'
 export class FaseGruposComponent implements OnInit {
 
   grupos : any = [];
-
+  index: number = 0
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
     this.http.get("assets/countries.json").subscribe(data => {
       this.grupos = data;
       console.log(this.grupos)
+      this.index = this.grupos.indexOf(data)
+      console.log(this.index)
     })
   }
 
