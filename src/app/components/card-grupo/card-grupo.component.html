@@ -1,66 +1,68 @@
-<table class="table table-sm table-dark table-hover">
-  <thead>
-    <tr>
-      <th></th>
-      <th>Equipe</th>
-      <th>Pts</th>
-      <th>PJ</th>
-      <th>VIT</th>
-      <th>E</th>
-      <th>DER</th>
-      <th>GM</th>
-      <th>GC</th>
-      <th>SG</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Catar</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Equador</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Senegal</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Holanda</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-      <td>00</td>
-    </tr>
-  </tbody>
-</table>
+<div class="w-[500px] mx-auto flex flex-col px-6 py-4 bg-white rounded-lg shadow-xl m-4">
+    <h4 class="text-xl text-gray-900 leading-normal">Grupo</h4>
+    <table class="table-fixed">
+      <thead>
+        <tr class="text-left">
+          <th colspan="2">Equipe</th>
+          <th>Pts</th>
+          <th>PJ</th>
+          <th>VIT</th>
+          <th>E</th>
+          <th>DER</th>
+          <th>GM</th>
+          <th>GC</th>
+          <th>SG</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img [src]=grupo[0].flagUrl/></td>
+          <td>{{ grupo[0].country }}</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td><img [src]=grupo[1].flagUrl /></td>
+          <td>{{ grupo[1].country }}</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td><img [src]=grupo[2].flagUrl /></td>
+          <td>{{ grupo[2].country }}</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td><img [src]=grupo[3].flagUrl /></td>
+          <td>{{ grupo[3].country }}</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
