@@ -15,9 +15,6 @@ export class FaseGruposComponent implements OnInit {
   ngOnInit(): void {
     this.http.get("assets/countries.json").subscribe(data => {
       this.grupos = data;
-      console.log(this.grupos)
-      this.index = this.grupos.indexOf(data)
-      console.log(this.index)
     })
   }
 
