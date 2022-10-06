@@ -1,20 +1,27 @@
 <nav class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg text-gray-300 bg-[#8a1538] shadow-lg">
+<div class="flex items-center">
+    <div>
+      <img class="w-12 md:w-16" src="../../../assets/img/mascot.png" alt="">
+    </div>
+    <div>
+      <img class="w-48 md:w-52" src="../../../assets/img/logo.png" alt="">
+    </div>
+</div>
   <div>
-    <img class="w-52" src="../../../assets/img/logo.png" alt="">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+      id="menu-button"
+      class="w-8 h-8 cursor-pointer md:hidden block"
+      (click)="toggleMenu()">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+    </svg>
   </div>
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-    id="menu-button"
-    class="w-8 h-8 cursor-pointer md:hidden block"
-    (click)="toggleMenu()">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-  </svg>
   <div [class.hidden]="toggle" class="w-full md:flex md:items-center md:w-auto">
     <ul class="text-base text-white pt-4 md:flex md:flex-row md:justify-between md:pt-0">
       <li>
-        <a class="md:p-4 py-2 block hover:text-gray-200" href="#">Fase de Grupos</a>
+        <a class="md:p-4 py-4 block hover:text-yellow-200" href="#">Fase de Grupos</a>
       </li>
       <li>
-        <a class="md:p-4 py-2 block hover:text-gray-200" href="#">Fase Eliminatória</a>
+        <a class="md:p-4 py-4 block hover:text-yellow-200" href="#">Fase Eliminatória</a>
       </li>
     </ul>
   </div>
